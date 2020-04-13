@@ -3,15 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 using System.Threading.Tasks;
-using System.Net;
 using System.Text;
-using System.Net.Http;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.AspNetCore.Mvc;
 using viewer.Hubs;
 using viewer.Models;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace viewer.Controllers
 {
